@@ -1,0 +1,13 @@
+{application, ecron,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ecron_app, []}},
+  {env, []}
+ ]}.
